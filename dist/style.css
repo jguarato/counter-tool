@@ -1,0 +1,122 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  background-color: #1C1C1E;
+  font-family: Poppins;
+}
+
+header {
+  margin: 20px;
+}
+
+.country-flag {
+  cursor: pointer;
+  width: 20px;
+  height: 20px;
+  margin-left: 10px;
+  border-width: 1px;
+  border-radius: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  float: right;
+}
+
+
+.container {
+  min-width: 450px;
+  padding: 20px;
+}
+
+h2 {
+  margin: 40px;
+  color: #EDEDED;
+  font-weight: 300;
+}
+
+#titleId {
+  font-weight: 600;
+  color: #91d4d0;
+  text-decoration: none;
+  background: linear-gradient(to right, #E5DB9D 10%, #CAB83C 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#textArea {
+  display: block;
+  width: 90%;
+  min-width: 200px;
+  height: 300px;
+  margin: 40px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 14px;
+  background-color: #EDEDED;
+}
+
+#textArea:focus {
+  outline: none;
+}
+
+#textArea,
+textarea {
+  font-size: 14px;
+  color: #CAB83C;
+  text-shadow: 0px 0px 0px #1C1C1E;
+  -webkit-text-fill-color: transparent;
+}
+
+
+.div-btn {
+  display: block;
+  margin: 10px;
+  margin-left: calc(100% - 200px);
+}
+
+#resetButton {
+  cursor: pointer;
+  min-width: 80px;
+  margin: 10px;
+	padding: 10px 15px;
+  border-radius: 6px;
+	border: 1px solid #38383A;
+  box-shadow: inset 0px 1px 0px 0px #D7CA6D;
+	background: linear-gradient(to bottom, #D7CA6D 5%, #CAB83C 100%);
+	background-color: #D7CA6D;
+  color: #FFFF;
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.my-btn:hover {
+	background: linear-gradient(to bottom, #CAB83C 5%, #D7CA6D 100%);
+	background-color: #CAB83C;
+  color: #332E0F;
+}
+
+#resultArea {
+  margin: 40px;
+  margin-top: -40px;
+  color: #EDEDED;
+  font-size: 20px;
+  font-weight: 400;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  padding: 20px;
+  font-family: Poppins;
+  color: #F5F5F5;
+}
+
+.name-dark {
+  color: #91d4d0;
+  text-decoration: none;
+  background: linear-gradient(to right, #91d4d0 50%, #ff3300 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
