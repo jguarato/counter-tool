@@ -1,7 +1,3 @@
-resetCounter();
-
-
-
 function countWords() {
   
   var charQty = 0;
@@ -122,7 +118,7 @@ function changeLanguage(countryChoice) {
     spans[4].innerHTML = "Sentences: ";
     spans[6].innerHTML = "Paragraphs: ";
     
-    madeBy.innerHTML = "made by ";
+    madeBy.innerHTML = "created by ";
     
   } else if (countryChoice == "br") {
     
@@ -135,8 +131,10 @@ function changeLanguage(countryChoice) {
     spans[4].innerHTML = "Frases: ";
     spans[6].innerHTML = "Parágrafos: ";
     
-    madeBy.innerHTML = "feito por ";
+    madeBy.innerHTML = "criado por ";
     
   }
 
 }
+
+resetCounter();

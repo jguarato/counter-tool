@@ -1,20 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@500&display=swap");
+
 * {
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background-color: #1C1C1E;
   font-family: Poppins;
 }
 
 header {
-  margin: 20px;
+  margin: 2.7vmin;
 }
 
 .country-flag {
   cursor: pointer;
-  width: 20px;
-  height: 20px;
-  margin-left: 10px;
-  border-width: 1px;
+  width: 3vmin;
+  height: 3vmin;
+  margin-left: 1.4vmin;
+  border-width: .14vmin;
   border-radius: 50%;
   background-position: center;
   background-repeat: no-repeat;
@@ -24,13 +26,14 @@ header {
 
 
 .container {
-  min-width: 450px;
-  padding: 20px;
+  min-width: 61vmin;
+  padding: 2.7vmin;
 }
 
 h2 {
-  margin: 40px;
+  margin: 5.4vmin;
   color: #EDEDED;
+  font-size: 3.3vmin;
   font-weight: 300;
 }
 
@@ -46,12 +49,12 @@ h2 {
 #textArea {
   display: block;
   width: 90%;
-  min-width: 200px;
-  height: 300px;
-  margin: 40px;
+  min-width: 27vmin;
+  height: 40.5vmin;
+  margin: 5.4vmin;
   margin-left: auto;
   margin-right: auto;
-  padding: 14px;
+  padding: 2vmin;
   background-color: #EDEDED;
 }
 
@@ -61,34 +64,34 @@ h2 {
 
 #textArea,
 textarea {
-  font-size: 14px;
+  font-size: 2vmin;
   color: #CAB83C;
-  text-shadow: 0px 0px 0px #1C1C1E;
+  text-shadow: 0 0 0 #1C1C1E;
   -webkit-text-fill-color: transparent;
 }
 
 
 .div-btn {
   display: block;
-  margin: 10px;
-  margin-left: calc(100% - 200px);
+  margin: 1.4vmin;
+  margin-left: calc(100% - 27vmin);
 }
 
 #resetButton {
   cursor: pointer;
-  min-width: 80px;
-  margin: 10px;
-	padding: 10px 15px;
-  border-radius: 6px;
-	border: 1px solid #38383A;
-  box-shadow: inset 0px 1px 0px 0px #D7CA6D;
+  min-width: 11vmin;
+  margin: 1.4vmin;
+	padding: 1.4vmin 2vmin;
+  border-radius: .8vmin;
+	border: .14vmin solid #38383A;
+  box-shadow: inset 0 .14vmin 0 0 #D7CA6D;
 	background: linear-gradient(to bottom, #D7CA6D 5%, #CAB83C 100%);
 	background-color: #D7CA6D;
   color: #FFFF;
   font-family: Roboto;
-  font-size: 14px;
+  font-size: 2vmin;
   font-weight: 500;
-  letter-spacing: 1px;
+  letter-spacing: .14vmin;
 }
 .my-btn:hover {
 	background: linear-gradient(to bottom, #CAB83C 5%, #D7CA6D 100%);
@@ -97,19 +100,18 @@ textarea {
 }
 
 #resultArea {
-  margin: 40px;
-  margin-top: -40px;
+  margin: 5.4vmin;
+  margin-top: -5.4vmin;
   color: #EDEDED;
-  font-size: 20px;
+  font-size: 2.7vmin;
   font-weight: 400;
 }
 
 footer {
-  position: fixed;
-  bottom: 0;
-  right: 0;
-  padding: 20px;
-  font-family: Poppins;
+  float: right;
+  margin-top: -10vmin;
+  padding: 3vmin;
+  font-size: 2vmin;
   color: #F5F5F5;
 }
 

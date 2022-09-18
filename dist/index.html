@@ -8,49 +8,35 @@
 </head>
 <body>
 <!-- partial:index.partial.html -->
-<html>
+<header>
+  <button class="country-flag" style="background-image:  url(https://flagicons.lipis.dev/flags/4x3/br.svg)" onClick="changeLanguage('br')"></button>
+  <button class="country-flag" style="background-image:  url(https://flagicons.lipis.dev/flags/4x3/us.svg)" onClick="changeLanguage('us')"></button>
+</header>
 
-  <head>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@500&display=swap" rel="stylesheet">
-  </head>
+<div class="container">
+  <h2><span id="titleId">Text Element Counter Tool:</span> Count characters, words, sentences and paragraphs</h2>
 
-  <body>
-    
-    <header>
-      <button class="country-flag" style="background-image:  url(https://flagicons.lipis.dev/flags/4x3/br.svg)" onClick="changeLanguage('br')"></button>
-      <button class="country-flag" style="background-image:  url(https://flagicons.lipis.dev/flags/4x3/us.svg)" onClick="changeLanguage('us')"></button>
-    </header>
+  <textarea id="textArea" onInput="countWords()"></textarea>
 
-    <div class="container">
-      <h2><span id="titleId">Text Element Counter Tool:</span> Count characters, words, sentences and paragraphs</h2>
+  <div class="div-btn">
+    <button id="resetButton" onClick="resetCounter()">Reset</button>
+  </div>
 
-      <textarea id="textArea" onInput="countWords()"></textarea>
+  <div id="resultArea">
+    <span>Characters: </span><span id="charId">0</span>
+    <br>
+    <span>Words: </span><span id="wordId">0</span>
+    <br>
+    <span>Sentences: </span><span id="sentId">0</span>
+    <br>
+    <span>Paragraphs: </span><span id="parId">0</span>
+  </div>
 
-      <div class="div-btn">
-        <button id="resetButton" onClick="resetCounter()">Reset</button>
-      </div>
+</div>
 
-      <div id="resultArea">
-        <span>Characters: </span><span id="charId">0</span>
-        <br>
-        <span>Words: </span><span id="wordId">0</span>
-        <br>
-        <span>Sentences: </span><span id="sentId">0</span>
-        <br>
-        <span>Paragraphs: </span><span id="parId">0</span>
-      </div>
-
-    </div>
-
-    <footer>
-      <span id="madeBy">made by </span><a class="name-dark" id="myName" href="https://codepen.io/jguarato">jguarato</a> 🐞
-    </footer>
-
-  </body>
-
-</html>
+<footer>
+  <span id="madeBy">created by </span><a class="name-dark" href="https://codepen.io/jguarato">jguarato</a> 🐞
+</footer>
 <!-- partial -->
   <script  src="./script.js"></script>
 
